@@ -1,0 +1,23 @@
+'''
+Write a function that takes a list and returns a new list that contains
+all the elements of the first list minus duplicates.
+'''
+
+listNum = [9, 8, 5, 7, 2, 0, 1, 4, 3, 6, 9, 8, 7, 6]
+
+# def listRemoveDup(n):
+#     new_list = []
+#
+#     for i in n:
+#         if i not in new_list:
+#             new_list.append(i)
+#     print new_list
+#
+# listRemoveDup(listNum)
+
+
+
+def listRemoveDup(n):
+    print list(set(n))
+
+listRemoveDup(listNum)
